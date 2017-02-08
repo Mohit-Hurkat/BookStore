@@ -10,5 +10,4 @@ public interface AdminDao {
 	public boolean insert(Admin admin)throws IOException, ClassNotFoundException, SQLException;
 	public boolean update(String username, Admin newAdmin) throws ClassNotFoundException, IOException, SQLException;
 	public Admin retrieveAdminRecord() throws IOException, ClassNotFoundException, SQLException;
-	
 }

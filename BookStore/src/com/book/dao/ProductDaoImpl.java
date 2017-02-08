@@ -110,6 +110,7 @@ public class ProductDaoImpl implements ProductDao {
 		connection.close();
 		return true;
 	}
+	
 
 	public int getMaxId() throws SQLException, ClassNotFoundException{
 		Connection connection = JDBCConnection.getConnection();
